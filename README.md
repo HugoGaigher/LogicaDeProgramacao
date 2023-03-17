@@ -1,2 +1,2 @@
 # Lógica de Programação
-Lógica de Programação - Portugol (CTDS-13)/SENAI-ES
+Repositório para a UC (Unidade Curricular) de Lógica de Programação para a turma CTDS-13 do SENAI/ES.
