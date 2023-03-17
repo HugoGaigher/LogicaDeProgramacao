@@ -26,29 +26,37 @@ programa
 		escreva("\n-------------------------------------------------\n")
 
 		//verificador de menor valor
-		se(valor1 < valor2){
-			se(valor1 < valor3){
+		se(valor1 < valor2)
+		{
+			se(valor1 < valor3)
+			{
 				menor_preco = valor1
 			}
-			senao{
+			senao
+			{
 				menor_preco = valor3
 			}
 		}
-		senao se(valor2 < valor3){
+		senao se(valor2 < valor3)
+		{
 			menor_preco = valor2
 		}
-		senao{
+		senao
+		{
 			menor_preco = valor3
 		}
 
 		//verificador de recomendação
-		se(menor_preco == valor1){
+		se(menor_preco == valor1)
+		{
 			escreva("Te recomendo comprar ", nome1)
 		}
-		senao se(menor_preco == valor2){
+		senao se(menor_preco == valor2)
+		{
 			escreva("Te recomendo comprar ", nome2)
 		}
-		senao{
+		senao
+		{
 			escreva("Te recomendo comprar ", nome3)
 		}
 		
