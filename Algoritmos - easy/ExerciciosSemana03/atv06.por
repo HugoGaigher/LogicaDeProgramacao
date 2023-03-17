@@ -9,22 +9,28 @@ programa
 		leia(letra)
 		escreva("\n\n")
 
-		se(letra == 'a'){
+		se(letra == 'a')
+		{
 			escreva("é vogal")
 		}
-		senao se(letra == 'e'){
+		senao se(letra == 'e')
+		{
 			escreva("é vogal")
 		}
-		senao se(letra == 'i'){
+		senao se(letra == 'i')
+		{
 			escreva("é vogal")
 		}
-		senao se(letra == 'o'){
+		senao se(letra == 'o')
+		{
 			escreva("é vogal")
 		}
-		senao se(letra == 'u'){
+		senao se(letra == 'u')
+		{
 			escreva("é vogal")
 		}
-		senao{
+		senao
+		{
 			escreva("é consoante")
 		}
 	}
