@@ -15,6 +15,8 @@ programa
 		escreva("Qual a distância (em Km) que você deseja percorrer?\n")
 		leia(distancia_que_deseja_percorrer)
 
+		capacidade_atual = km_por_litro * litros_de_gasolina
+		
 		se(distancia_que_deseja_percorrer <= capacidade_atual)
 		{
 			escreva("Você não precisa abastecer")
