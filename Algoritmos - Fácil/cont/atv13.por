@@ -49,31 +49,6 @@ programa
 			escreva("Infelizmente você não pode ser doador")
 		}
 
-
-
-		/*
-		se(idade > 19)
-		{
-			se(idade < 69)
-			{
-				se(peso >= 50.0)
-				{
-					se(possui_tatuagem == falso)
-					{
-						se(ingeriu_bebida_alcoolica == falso)
-						{
-							escreva("Parabéns, você pode doar sangue.")
-						}
-					}
-				}
-			}
-			
-		}
-		senao
-		{
-			escreva("Infelizmente você não pode ser doador")
-		}
-		*/
 		
 	}
 }
