@@ -5,7 +5,7 @@ programa
 	{
 		real peso
 		inteiro idade
-		logico possui_tatuagem, ingeriu_bebida_alcoolica, permissao
+		logico possui_tatuagem, ingeriu_bebida_alcoolica
 
 		escreva("Qual sua idade? ")
 		leia(idade)
