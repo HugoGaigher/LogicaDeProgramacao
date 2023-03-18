@@ -6,7 +6,7 @@ programa
 		real km_por_litro  
 		real litros_de_gasolina
 		real distancia_que_deseja_percorrer
-		real quanto_falta, capacidade_atual
+		real quanto_falta
 
 		escreva("Quantos quilômetros o carro percorre por litro?\n")
 		leia(km_por_litro)
@@ -15,15 +15,13 @@ programa
 		escreva("Qual a distância (em Km) que você deseja percorrer?\n")
 		leia(distancia_que_deseja_percorrer)
 
-		capacidade_atual = litros_de_gasolina*km_por_litro
-
 		se(distancia_que_deseja_percorrer <= capacidade_atual)
 		{
 			escreva("Você não precisa abastecer")
 		}
 		senao
 		{
-			quanto_falta = litros_de_gasolina - (distancia_que_deseja_percorrer - capacidade_atual)/km_por_litro
+			quanto_falta = distancia_que_deseja_percorrer/km_por_litro - litros_de_gasolina
 			escreva("Você precisa abastecer ", quanto_falta, " litros")
 		}
 		
