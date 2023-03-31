@@ -40,7 +40,7 @@ programa
 		escreva("\n")
 		escreva("Mulheres cumprimentadas: ", quantidade_mulheres)
 */
-		faca
+		enquanto(i<quantidade_de_pessoas)
 		{
 			escreva("Informe seu sexo (f/m): ")
 			leia(sexo)
@@ -65,7 +65,7 @@ programa
 			}
 
 			escreva("\n\n")
-		}enquanto(i<quantidade_de_pessoas)
+		}
 
 		escreva("Homens cumprimentados: ", quantidade_homens)
 		escreva("\n")
