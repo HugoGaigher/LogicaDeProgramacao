@@ -9,22 +9,22 @@ programa
 		{
 			escreva("Digite a idade da pessoa ", i, ": ")
 			leia(idade)
-			se(idade >= 0 e idade <= 9)
+			se(idade <= 9)
 			{
 				crianca += 1
 			}
 
-			senao se(idade > 9 e idade <= 14)
+			senao se(idade <= 14)
 			{
 				pre_adolescente += 1
 			}
 
-			senao se(idade > 14 e idade <= 21)
+			senao se(idade <= 21)
 			{
 				adolescentes += 1
 			}
 
-			senao se(idade > 21 e idade <= 64)
+			senao se(idade <= 64)
 			{
 				adultos += 1
 			}
