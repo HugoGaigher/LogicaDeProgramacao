@@ -687,7 +687,7 @@ programa
 
 		faca{
 			escreva("\n ----------------------------------------------------------")
-			escreva("\n|Há quanto tempo você trabalha de carteira assinada? ")
+			escreva("\n|Há quantos anos você trabalha de carteira assinada? ")
 			
 			leia(quantidade_de_anos_trabalhados)
 
